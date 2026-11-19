@@ -1,12 +1,41 @@
-# React + Vite
+# NextGen Academia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NextGen Academia is a React dashboard prototype for student academic activity, faculty validation, events, and portfolio tracking.
 
-Currently, two official plugins are available:
+## Dashboard sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dashboard overview
+- Student profile and tracker
+- Faculty validation
+- Events and portfolio
+- Analytics and leaderboard
+- Audit views
 
-## Expanding the ESLint configuration
+## Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js
+- npm
+
+## Run locally
+
+From the project root:
+
+```powershell
+npm install
+npm run dev
+```
+
+Vite prints the local development URL after startup.
+
+## Build and lint
+
+```powershell
+npm run build
+npm run lint
+```
+
+## Tech stack
+
+- React
+- Vite
+- Tailwind CSS
